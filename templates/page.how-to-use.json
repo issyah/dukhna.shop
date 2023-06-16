@@ -1,0 +1,341 @@
+{
+  "sections": {
+    "29a50766-346d-43e3-9214-66b425506831": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19408888234279__29a50766-346d-43e3-9214-66b425506831-168688992496a8ae08-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "template--19408888234279__29a50766-346d-43e3-9214-66b425506831-168688992496a8ae08-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--19408888234279__29a50766-346d-43e3-9214-66b425506831-168688992496a8ae08-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19408888234279__29a50766-346d-43e3-9214-66b425506831-168688992496a8ae08-0",
+        "template--19408888234279__29a50766-346d-43e3-9214-66b425506831-168688992496a8ae08-1",
+        "template--19408888234279__29a50766-346d-43e3-9214-66b425506831-168688992496a8ae08-2"
+      ],
+      "custom_css": [
+        ".banner--small:not(.banner--adapt) {min-height: 16rem; max-height: 16rem;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/agarwood_1.png",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "387ecb4f-12d2-4bcf-b5c9-04fcf4dba221": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19408888234279__387ecb4f-12d2-4bcf-b5c9-04fcf4dba221-16868912560faf8677-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Need help using Dukhna's E-Burner? We'll walk you through the steps of incorporating the e-burner with the oud into your daily routine.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19408888234279__387ecb4f-12d2-4bcf-b5c9-04fcf4dba221-16868912560faf8677-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_6643_square.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cbdc9b29-dc27-428d-ac33-c19539ba1624": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19408888234279__cbdc9b29-dc27-428d-ac33-c19539ba1624-16868912213ce5af73-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6678_square.jpg",
+            "title": "",
+            "text": "<p>Ensure that the device is fully charged before first-time use. This will optimize the performance and longevity of your E-burner.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19408888234279__cbdc9b29-dc27-428d-ac33-c19539ba1624-16868912213ce5af73-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/open-lid.jpg",
+            "title": "",
+            "text": "<p>Remove the cover from the device to expose the heating element.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19408888234279__cbdc9b29-dc27-428d-ac33-c19539ba1624-16868912213ce5af73-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/put-ouhd.jpg",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b09edff9-9dca-4e75-b377-54d34202eea6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6647_square.jpg",
+            "title": "",
+            "text": "<p>Replace the cover securely over the heating element to prevent any ash or smoke from escaping.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c6ef4933-1dd2-46c3-aeae-b8bd6a7253e0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/switch_on.jpg",
+            "title": "",
+            "text": "<p>Turn on the E-burner by pressing the power button. Wait until the light indicates the device is on and heating up.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "84ed93dc-d2aa-429c-a367-fb3643b12f8c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aroma.jpg",
+            "title": "",
+            "text": "<p>Once the device is heated, the incense will start to emit a pleasant aroma. Enjoy the fragrance in the comfort of your own home.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19408888234279__cbdc9b29-dc27-428d-ac33-c19539ba1624-16868912213ce5af73-0",
+        "template--19408888234279__cbdc9b29-dc27-428d-ac33-c19539ba1624-16868912213ce5af73-1",
+        "template--19408888234279__cbdc9b29-dc27-428d-ac33-c19539ba1624-16868912213ce5af73-2",
+        "b09edff9-9dca-4e75-b377-54d34202eea6",
+        "c6ef4933-1dd2-46c3-aeae-b8bd6a7253e0",
+        "84ed93dc-d2aa-429c-a367-fb3643b12f8c"
+      ],
+      "custom_css": [
+        ".multicolumn-card-spacing {padding-top: 0; margin-left: 0; margin-right: 0;}",
+        ".media {border-top-left-radius: 16px; border-top-right-radius: 16px;}",
+        ".multicolumn-list__item {margin-bottom: 3rem;}"
+      ],
+      "settings": {
+        "title": "Follow these simple instructions:",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 20
+      }
+    },
+    "ca5e913b-73fe-44c5-ba8f-bfb0e51fab90": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19408888234279__ca5e913b-73fe-44c5-ba8f-bfb0e51fab90-1686891245dabd4651-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19408888234279__ca5e913b-73fe-44c5-ba8f-bfb0e51fab90-1686891245dabd4651-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When you are finished using the E-burner, turn off the device and let it cool down before handling.<\/p>"
+          }
+        },
+        "template--19408888234279__ca5e913b-73fe-44c5-ba8f-bfb0e51fab90-1686891245dabd4651-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19408888234279__ca5e913b-73fe-44c5-ba8f-bfb0e51fab90-1686891245dabd4651-0",
+        "template--19408888234279__ca5e913b-73fe-44c5-ba8f-bfb0e51fab90-1686891245dabd4651-1",
+        "template--19408888234279__ca5e913b-73fe-44c5-ba8f-bfb0e51fab90-1686891245dabd4651-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    },
+    "e2fe05d5-e31a-4182-bbc2-a22017aeb956": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--19408888234279__e2fe05d5-e31a-4182-bbc2-a22017aeb956-168688992496a8ae08-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--19408888234279__e2fe05d5-e31a-4182-bbc2-a22017aeb956-168688992496a8ae08-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--19408888234279__e2fe05d5-e31a-4182-bbc2-a22017aeb956-168688992496a8ae08-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19408888234279__e2fe05d5-e31a-4182-bbc2-a22017aeb956-168688992496a8ae08-0",
+        "template--19408888234279__e2fe05d5-e31a-4182-bbc2-a22017aeb956-168688992496a8ae08-1",
+        "template--19408888234279__e2fe05d5-e31a-4182-bbc2-a22017aeb956-168688992496a8ae08-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "4f49df14-31ab-45ff-b479-88a539367cb0": {
+      "type": "video-background",
+      "blocks": {
+        "template--19408888234279__4f49df14-31ab-45ff-b479-88a539367cb0-1686895238174fd929-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "By following these simple steps, you can ensure that your E-burner is working efficiently and safely. Enjoy the convenience and ease of an E-burner for your incense needs",
+            "heading_size": "h2"
+          }
+        },
+        "template--19408888234279__4f49df14-31ab-45ff-b479-88a539367cb0-1686895238174fd929-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--19408888234279__4f49df14-31ab-45ff-b479-88a539367cb0-1686895238174fd929-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19408888234279__4f49df14-31ab-45ff-b479-88a539367cb0-1686895238174fd929-0",
+        "template--19408888234279__4f49df14-31ab-45ff-b479-88a539367cb0-1686895238174fd929-1",
+        "template--19408888234279__4f49df14-31ab-45ff-b479-88a539367cb0-1686895238174fd929-2"
+      ],
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/Reel 1 (16x9).mp4",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "29a50766-346d-43e3-9214-66b425506831",
+    "387ecb4f-12d2-4bcf-b5c9-04fcf4dba221",
+    "cbdc9b29-dc27-428d-ac33-c19539ba1624",
+    "ca5e913b-73fe-44c5-ba8f-bfb0e51fab90",
+    "e2fe05d5-e31a-4182-bbc2-a22017aeb956",
+    "main",
+    "4f49df14-31ab-45ff-b479-88a539367cb0"
+  ]
+}

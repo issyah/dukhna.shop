@@ -13,9 +13,18 @@
   outline: none;
 }
 
-.list-menu__item--active {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+.list-menu__item--active:before {
+  content: "";
+  position: absolute;
+  bottom:-3px;
+  left:0px;
+  height:1px;
+  background-color: rgba(var(--color-foreground));
+  right:0px;
+  width:100% !important;
+  transition: width ease-in 250ms
+  /* text-decoration: underline; */
+  /* text-underline-offset: 0.3rem; */
 }
 
 .list-menu__item--active:hover {

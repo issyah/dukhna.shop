@@ -92,13 +92,13 @@
       {%- endif -%}
     </slider-component>
 
-    {%- if section.settings.show_view_all and more_in_collection -%}
+    {%- if section.settings.show_view_all -%}
       <div class="center collection__view-all">
         <a href="{{ section.settings.collection.url }}"
           class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
           aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
         >
-          {{ 'sections.featured_collection.view_all' | t }}
+          {{ section.settings.view_all_button_text}}
         </a>
       </div>
     {%- endif -%}
@@ -201,7 +201,13 @@
       "type": "checkbox",
       "id": "show_view_all",
       "default": true,
-      "label": "t:sections.featured-collection.settings.show_view_all.label"
+      "label": "Show button"
+    },
+    {
+      "type" : "text",
+      "id" : "view_all_button_text",
+      "default": "View all",
+      "label" : "Button label"
     },
     {
       "type": "select",

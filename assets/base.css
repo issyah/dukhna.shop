@@ -2640,16 +2640,28 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item span {
+  position: relative;
   transition: text-decoration var(--duration-short) ease;
 }
-
-.header__menu-item:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+.header__menu-item span:before, .header__active-menu-item:before{
+  content: "";
+  position: absolute;
+  bottom:-3px;
+  left:0px;
+  height:1px;
+  background-color: rgba(var(--color-foreground));
+  right:0px;
+  width:0%;
+  transition: width ease-in 250ms
+}
+.header__menu-item:hover span:before, .header__active-menu-item:before {
+  width: 100%;
+  /* text-decoration: underline;
+  text-underline-offset: 0.3rem; */
 }
 
 details[open] > .header__menu-item {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 details[open]:hover > .header__menu-item {
@@ -2662,9 +2674,9 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  /* color: rgb(var(--color-foreground)); */
+  /* text-decoration: underline; */
+  /* text-underline-offset: 0.3rem; */
 }
 
 .header__menu-item:hover .header__active-menu-item {
