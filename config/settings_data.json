@@ -9,7 +9,7 @@
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#f3f3f3",
+    "colors_background_2": "#f5f5f5",
     "gradient_background_2": "",
     "type_header_font": "montserrat_n7",
     "heading_scale": 100,
@@ -204,7 +204,7 @@
           "footer-2"
         ],
         "settings": {
-          "color_scheme": "background-2",
+          "color_scheme": "inverse",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,

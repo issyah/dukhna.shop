@@ -66,7 +66,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Dukhna provides an unparalleled selection of oud-centric products. From pure oud oils and delicately blended perfumes to intricately carved burners, each item is carefully curated to ensure the highest quality and authenticity. Customers can trust that they are acquiring genuine Middle Eastern treasures.<\/p>",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "template--19407795978535__12d9b45d-3beb-4504-97fa-3ed93ebd347a-16869368722fbd42c5-2": {
@@ -376,8 +376,39 @@
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "be6412e7-017c-4a54-bd0d-6806e7474786": {
+      "type": "featured-collection",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Shop Oud",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "oud",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_button_text": "View all",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn": {
@@ -478,35 +509,112 @@
         "padding_bottom": 36
       }
     },
-    "be6412e7-017c-4a54-bd0d-6806e7474786": {
-      "type": "featured-collection",
+    "c7e48b98-a9cb-439e-b15d-39ec2e0f8215": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19407795978535__c7e48b98-a9cb-439e-b15d-39ec2e0f8215-168693974947aacffd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elevate Your Driving Experience",
+            "heading_size": "h2"
+          }
+        },
+        "template--19407795978535__c7e48b98-a9cb-439e-b15d-39ec2e0f8215-168693974947aacffd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our innovative Portable Oudh E-Burner is designed specifically for your car. Transform your daily commute into a journey of opulence and serenity, indulging in the captivating aroma of oudh, wherever you go.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19407795978535__c7e48b98-a9cb-439e-b15d-39ec2e0f8215-168693974947aacffd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--19407795978535__c7e48b98-a9cb-439e-b15d-39ec2e0f8215-168693974947aacffd-0",
+        "template--19407795978535__c7e48b98-a9cb-439e-b15d-39ec2e0f8215-168693974947aacffd-1",
+        "template--19407795978535__c7e48b98-a9cb-439e-b15d-39ec2e0f8215-168693974947aacffd-2"
+      ],
       "custom_css": [
-
+        "@media (min-width: 990px) {.image-with-text__content {padding-left: 0; }}"
       ],
       "settings": {
-        "title": "Shop Oud",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "oud",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_button_text": "View all",
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "image": "shopify:\/\/shop_images\/IMG_6851.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "59aefbad-42c7-499e-877b-804413ea8d1c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19407795978535__59aefbad-42c7-499e-877b-804413ea8d1c-1686941171cfcd031f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Dukhna<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19407795978535__59aefbad-42c7-499e-877b-804413ea8d1c-1686941171cfcd031f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our commitment to quality and authenticity means that every item we offer has been carefully selected to meet your needs. Experience the richness and beauty of the Middle East with Dukhna.<\/p>"
+          }
+        },
+        "2f4c0ea9-4506-49eb-b765-226e10f1778d": {
+          "type": "html",
+          "settings": {
+            "html": "<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-instagram\" viewbox=\"0 0 18 18\">\n  <path fill=\"currentColor\" d=\"M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z\"><\/path>\n  <path fill=\"currentColor\" d=\"M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z\">\n<\/path><\/svg>"
+          }
+        },
+        "d93e704f-2e77-43b3-9f06-b9c0ae807c2a": {
+          "type": "caption",
+          "settings": {
+            "caption": "#FragranceYourSoul",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "template--19407795978535__59aefbad-42c7-499e-877b-804413ea8d1c-1686941171cfcd031f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Gallery",
+            "button_link": "https:\/\/instagram.com\/dukhna.shop",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19407795978535__59aefbad-42c7-499e-877b-804413ea8d1c-1686941171cfcd031f-0",
+        "template--19407795978535__59aefbad-42c7-499e-877b-804413ea8d1c-1686941171cfcd031f-1",
+        "2f4c0ea9-4506-49eb-b765-226e10f1778d",
+        "d93e704f-2e77-43b3-9f06-b9c0ae807c2a",
+        "template--19407795978535__59aefbad-42c7-499e-877b-804413ea8d1c-1686941171cfcd031f-2"
+      ],
+      "custom_css": [
+        ".icon {height: 1.8rem; width: 1.8rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -520,8 +628,10 @@
     "0b222f6e-18c4-41d0-9f10-54992477f3cb",
     "video",
     "05545153-f3b1-481b-bf31-0c246fe66693",
+    "be6412e7-017c-4a54-bd0d-6806e7474786",
     "multicolumn",
     "75f2c4c4-47a6-493e-9f73-74a628e12aad",
-    "be6412e7-017c-4a54-bd0d-6806e7474786"
+    "c7e48b98-a9cb-439e-b15d-39ec2e0f8215",
+    "59aefbad-42c7-499e-877b-804413ea8d1c"
   ]
 }
