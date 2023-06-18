@@ -109,7 +109,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/put-ouhd.jpg",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Place the desired amount of incense\/oud onto the heating element. Be sure to use a suitable amount to prevent overloading the device.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -272,7 +272,6 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -280,6 +279,7 @@
     },
     "4f49df14-31ab-45ff-b479-88a539367cb0": {
       "type": "video-background",
+      "disabled": true,
       "blocks": {
         "template--19408888234279__4f49df14-31ab-45ff-b479-88a539367cb0-1686895238174fd929-0": {
           "type": "heading",
