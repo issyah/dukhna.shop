@@ -37,7 +37,7 @@
         "template--19435764056359__4f93eb69-0e3d-4e4d-bccd-3b0bf138a5da-1687229538362a1240-2"
       ],
       "custom_css": [
-        ".banner{min-height: 13rem; height: 13rem;}"
+        ".banner {min-height: 13rem; height: 13rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/agarwood_1.png",
@@ -53,14 +53,6 @@
         "show_text_below": true
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -70,11 +62,106 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "c16f4db0-4502-41f1-8471-3b56274073a7": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--19435764056359__c16f4db0-4502-41f1-8471-3b56274073a7-1687229530670b28f0-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--19435764056359__c16f4db0-4502-41f1-8471-3b56274073a7-1687229530670b28f0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Email<\/p><p><strong>dukhna.shop@gmail.com<\/strong><\/p><p>Instagram<\/p><p><strong>dukhna.shop<\/strong><\/p><p>Address<\/p><p><strong>12 Jln Pisang, Singapore 199079 (currently under renovation)<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19435764056359__c16f4db0-4502-41f1-8471-3b56274073a7-1687229530670b28f0-0",
+        "template--19435764056359__c16f4db0-4502-41f1-8471-3b56274073a7-1687229530670b28f0-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d99f0764-e9e2-4cf9-bc00-def3f0d09158": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19435764056359__d99f0764-e9e2-4cf9-bc00-def3f0d09158-168722985932f22730-0": {
+          "type": "column",
+          "settings": {
+            "title": "Email",
+            "text": "<p>dukhna.shop@gmail.com<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19435764056359__d99f0764-e9e2-4cf9-bc00-def3f0d09158-168722985932f22730-1": {
+          "type": "column",
+          "settings": {
+            "title": "Social Media",
+            "text": "<p><a href=\"https:\/\/instagram.com\/dukhna.shop\" target=\"_blank\" title=\"https:\/\/instagram.com\/dukhna.shop\">Instagram: @dukhna.shop<\/a><\/p><p><a href=\"https:\/\/facebook.com\/dukhna.shop\" title=\"https:\/\/facebook.com\/dukhna.shop\">Facebook: dukhna.shop<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19435764056359__d99f0764-e9e2-4cf9-bc00-def3f0d09158-168722985932f22730-2": {
+          "type": "column",
+          "settings": {
+            "title": "Address",
+            "text": "<p>12 Jln Pisang, Singapore 199079 (currently under renovation)<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19435764056359__d99f0764-e9e2-4cf9-bc00-def3f0d09158-168722985932f22730-0",
+        "template--19435764056359__d99f0764-e9e2-4cf9-bc00-def3f0d09158-168722985932f22730-1",
+        "template--19435764056359__d99f0764-e9e2-4cf9-bc00-def3f0d09158-168722985932f22730-2"
+      ],
+      "settings": {
+        "title": "Additional Information",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "4f93eb69-0e3d-4e4d-bccd-3b0bf138a5da",
+    "form",
+    "c16f4db0-4502-41f1-8471-3b56274073a7",
     "main",
-    "form"
+    "d99f0764-e9e2-4cf9-bc00-def3f0d09158"
   ]
 }
