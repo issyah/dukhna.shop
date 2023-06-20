@@ -110,7 +110,7 @@
           "type": "column",
           "settings": {
             "title": "Email",
-            "text": "<p>dukhna.shop@gmail.com<\/p>",
+            "text": "<p><a href=\"mailto:dukhna.shop@gmail.com\" target=\"_blank\" title=\"mailto:dukhna.shop@gmail.com\">dukhna.shop@gmail.com<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
