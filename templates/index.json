@@ -17,12 +17,6 @@
             "heading_size": "h0"
           }
         },
-        "3a9ff470-b770-48b4-9a58-fdb0aba7cb83": {
-          "type": "html",
-          "settings": {
-            "html": "Celebrate Hari Raya Haji with a promotion: <br> <span style=\"color: #e39323; font-weight:bold;\"> Enjoy 10% Off on E-burner<\/span>"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -38,7 +32,6 @@
       "block_order": [
         "f42ce7a5-8160-46fc-bc18-11f277919a62",
         "heading",
-        "3a9ff470-b770-48b4-9a58-fdb0aba7cb83",
         "button"
       ],
       "custom_css": [
